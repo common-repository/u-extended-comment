@@ -1,0 +1,653 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ubpfeditor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-26 11:54+0900\n"
+"PO-Revision-Date: 2011-08-26 11:56+0900\n"
+"Last-Translator: taehan lee <urlless@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:60
+msgid "Component"
+msgstr "컴포넌트"
+
+#: includes/admin.php:61
+msgid "Status"
+msgstr "상태"
+
+#: includes/admin.php:62
+#: includes/admin.php:69
+#: includes/admin.php:74
+#: includes/admin.php:79
+#: includes/admin.php:84
+#: includes/admin.php:89
+msgid "Setting"
+msgstr "설정"
+
+#: includes/admin.php:67
+#: includes/utils.php:600
+msgid "Editable"
+msgstr "편집 기능"
+
+#: includes/admin.php:72
+#: includes/utils.php:612
+msgid "Deletable"
+msgstr "삭제 기능"
+
+#: includes/admin.php:77
+#: includes/utils.php:661
+msgid "Privatable"
+msgstr "비공개 기능"
+
+#: includes/admin.php:82
+#: includes/editor.php:414
+#: includes/editor.php:415
+#: includes/editor.php:432
+msgid "Editor"
+msgstr "편집기"
+
+#: includes/admin.php:87
+#: includes/attachment.php:690
+#: includes/attachment.php:691
+#: includes/attachment.php:734
+msgid "Attachment"
+msgstr "첨부파일"
+
+#: includes/attachment.php:44
+msgid "Insert into editor"
+msgstr "편집기에 이미지 삽입"
+
+#: includes/attachment.php:45
+#: includes/attachment.php:1063
+#: includes/utils.php:193
+#: includes/utils.php:336
+msgid "Delete"
+msgstr "삭제"
+
+#: includes/attachment.php:46
+msgid "Attachment deleted"
+msgstr "첨부파일 삭제됨"
+
+#: includes/attachment.php:47
+msgid "Are you sure you want to delete?"
+msgstr "정말로 삭제하시겠습니까?"
+
+#: includes/attachment.php:48
+msgid "Processing"
+msgstr "처리중"
+
+#: includes/attachment.php:148
+msgid "Attach a file"
+msgstr "파일첨부"
+
+#: includes/attachment.php:149
+msgid "Uploading"
+msgstr "업로드중"
+
+#: includes/attachment.php:151
+msgid "File types"
+msgstr "파일 타입"
+
+#: includes/attachment.php:152
+msgid "Max size"
+msgstr "최대 크기"
+
+#: includes/attachment.php:153
+msgid "Max count"
+msgstr "최대 개수"
+
+#: includes/attachment.php:201
+msgid "Download"
+msgstr "다운로드"
+
+#: includes/attachment.php:204
+msgid "Open Image in New Window"
+msgstr "새 창에서 이미지 열기"
+
+#: includes/attachment.php:204
+#: includes/attachment.php:974
+#: includes/attachment.php:1061
+msgid "View"
+msgstr "보기"
+
+#: includes/attachment.php:328
+#: includes/attachment.php:419
+msgid "Your nonce did not verify."
+msgstr "Your nonce did not verify."
+
+#: includes/attachment.php:331
+msgid "Please select a file to upload"
+msgstr "업로드할 파일을 선택하세요."
+
+#: includes/attachment.php:334
+#, php-format
+msgid "For uploading, file size must be less than %s Mbytes"
+msgstr "업로드할 수 있는 파일 크기는 %s Mbytes 이하입니다."
+
+#: includes/attachment.php:346
+#, php-format
+msgid "[%s] is successfully uploaded."
+msgstr "[%s] 파일이 업로드되었습니다."
+
+#: includes/attachment.php:399
+msgid "Unable to create sub-size images."
+msgstr "서브 사이즈 이미지를 생성할 수 없습니다."
+
+#: includes/attachment.php:425
+msgid "File does not exist"
+msgstr "파일이 존재하지 않습니다."
+
+#: includes/attachment.php:444
+msgid "Invalid file type"
+msgstr "올바르지 않은 파일 타입"
+
+#: includes/attachment.php:699
+#: includes/attachment.php:700
+#: includes/attachment.php:925
+msgid "Attachment Manager"
+msgstr "첨부파일 관리"
+
+#: includes/attachment.php:742
+#: includes/attachment.php:745
+#: includes/editor.php:441
+#: includes/editor.php:444
+#: includes/utils.php:603
+#: includes/utils.php:615
+#: includes/utils.php:664
+msgid "Enable"
+msgstr "활성화"
+
+#: includes/attachment.php:750
+#: includes/editor.php:449
+#: includes/utils.php:606
+#: includes/utils.php:618
+msgid "Permission restriction"
+msgstr "권한 제한"
+
+#: includes/attachment.php:753
+#: includes/editor.php:452
+#: includes/utils.php:607
+#: includes/utils.php:619
+msgid "If you want to allow all users and visitors to use, please uncheck all."
+msgstr "모든 사용자와 방문자가 사용할 수 있도록 하려면, 체크를 모두 해제하세요."
+
+#: includes/attachment.php:757
+msgid "Upload directory"
+msgstr "업로드 디렉토리"
+
+#: includes/attachment.php:764
+msgid "Max file size per file"
+msgstr "파일당 제한 파일 용량"
+
+#: includes/attachment.php:770
+msgid "Max file count per post"
+msgstr "포스트당 제한 파일 개수"
+
+#: includes/attachment.php:773
+msgid "How many files can be attached per post."
+msgstr "포스트당 업로드할 수 있는 파일 개수"
+
+#: includes/attachment.php:777
+msgid "Upload file types"
+msgstr "업로드 파일 목록"
+
+#: includes/attachment.php:780
+msgid "Separate file extentions with commas."
+msgstr "파일 확장자를 쉼표로 구분하세요."
+
+#: includes/attachment.php:783
+msgid "Extention(s) in the square brackets is same type each other. so, for example, if you inputted 'jpg', you don't need to input 'jpeg' or 'jpe'."
+msgstr "각괄호로 묶인 확장자들은 서로 같은 파일 타입입니다. 그래서, 예를들어, 'jpg'를 입력했다면, 'jpeg' 또는 'jpe'는 입력할 필요 없습니다."
+
+#: includes/attachment.php:788
+msgid "Number of comments to show in Attachment Manager"
+msgstr "첨부파일 관리에서 보여줄 댓글 목록 수"
+
+#: includes/attachment.php:796
+#: includes/editor.php:563
+#: includes/utils.php:687
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: includes/attachment.php:818
+#: includes/editor.php:602
+#: includes/utils.php:715
+msgid "Settings saved."
+msgstr "변경 사항 저장"
+
+#: includes/attachment.php:865
+msgid "(Trash)"
+msgstr "(휴지통)"
+
+#: includes/attachment.php:934
+msgid "Bulk Actions"
+msgstr "일괄 작업"
+
+#: includes/attachment.php:935
+#: includes/attachment.php:973
+msgid "Delete Permanently"
+msgstr "영구 삭제"
+
+#: includes/attachment.php:936
+msgid "Apply"
+msgstr "적용"
+
+#: includes/attachment.php:949
+msgid "File"
+msgstr "제목"
+
+#: includes/attachment.php:950
+msgid "Attached to"
+msgstr "첨부"
+
+#: includes/attachment.php:951
+#: includes/utils.php:669
+msgid "Commenter"
+msgstr "댓글 작성자"
+
+#: includes/attachment.php:952
+msgid "Date"
+msgstr "날짜"
+
+#: includes/attachment.php:993
+msgid "Show Unattached Files"
+msgstr "첨부되지 않은 파일 보기"
+
+#: includes/attachment.php:995
+msgid "Unattached Files"
+msgstr "첨부되지 않은 파일"
+
+#: includes/attachment.php:999
+msgid "Filename"
+msgstr "파일이름"
+
+#: includes/attachment.php:1005
+msgid "Loading"
+msgstr "읽어오는 중"
+
+#: includes/attachment.php:1053
+msgid "No unattached files"
+msgstr "첨부되지 않은 파일 없음."
+
+#: includes/editor.php:258
+msgid "Visual"
+msgstr "Visual"
+
+#: includes/editor.php:259
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/editor.php:456
+msgid "Editor Size"
+msgstr "편집기 크기"
+
+#: includes/editor.php:458
+msgid "Width"
+msgstr "넓이"
+
+#: includes/editor.php:462
+msgid "Height"
+msgstr "높이"
+
+#: includes/editor.php:467
+msgid "Editor Skin"
+msgstr "편집기 스킨"
+
+#: includes/editor.php:477
+#: includes/editor.php:484
+#: includes/editor.php:491
+#: includes/editor.php:498
+msgid "Buttons group"
+msgstr "버튼 꾸러미"
+
+#: includes/editor.php:480
+#: includes/editor.php:487
+#: includes/editor.php:494
+#: includes/editor.php:501
+msgid "Separate buttons with commas. Pipe character( | ) is visual separator."
+msgstr "콤마로 버튼을 구분하세요. 파이프 문자(|)는 시각적으로 분리해주는 역할을 해줍니다."
+
+#: includes/editor.php:507
+msgid "Available buttons"
+msgstr "사용가능한 버튼"
+
+#: includes/editor.php:511
+msgid "Extend TinyMCE Plugin"
+msgstr "TinyMCE 플러그인 확장"
+
+#: includes/editor.php:512
+msgid "This is not required."
+msgstr "필수 입력사항이 아닙니다."
+
+#: includes/editor.php:514
+msgid "Plugin directory"
+msgstr "플러그인 디렉토리"
+
+#: includes/editor.php:518
+msgid "Plugin names"
+msgstr "플러그인 이름"
+
+#: includes/editor.php:520
+msgid "Separate plugin name with commas."
+msgstr "플러그인 이름을 쉼표로 구분하세요."
+
+#: includes/editor.php:522
+msgid "How to extend TinyMCE plugin"
+msgstr "tinyMCE 플러그인 확장하는 방법"
+
+#: includes/editor.php:527
+msgid "Allowed Tags"
+msgstr "허용 태그"
+
+#: includes/editor.php:530
+msgid "Default allowed tags"
+msgstr "기본 허용 태그"
+
+#: includes/editor.php:538
+msgid "Additional tags"
+msgstr "추가 태그"
+
+#: includes/editor.php:539
+msgid "Check all"
+msgstr "모두 선택"
+
+#: includes/editor.php:546
+msgid "For instance, if you would embed Youtube, select <code>iframe</code>. and if you would use old embed code(Flash), select <code>object, embed and param</code>."
+msgstr "예를들어, 유튜프를 포함시키려 한다면, <code>iframe</code>을 선택. 만약 예전 방식으로 코드를 삽입하려면(플래시), <code>object, embed and param</code>를 선택하세요."
+
+#: includes/editor.php:547
+msgid "Some tags are never allowed. script, style, link."
+msgstr "일부 태그는 허용되지 않습니다. script, style, link."
+
+#: includes/editor.php:552
+msgid "Editor Content CSS URL"
+msgstr "편집기 콘텐츠의 CSS URL"
+
+#: includes/editor.php:555
+msgid "If you want to customize CSS of Editor content, enter your own stylesheet file URL."
+msgstr "편집기 콘텐츠의 CSS를 바꾸고 싶다면, 스타일시트 파일의 주소를 입력하세요."
+
+#: includes/editor.php:556
+#, php-format
+msgid "If you leave a blank, the %s CSS will be used."
+msgstr "공란으로 두면, %s 스타일이 적용됩니다."
+
+#: includes/editor.php:556
+msgid "defaults"
+msgstr "기본"
+
+#: includes/utils.php:93
+#: includes/utils.php:155
+msgid "Cancel"
+msgstr "취소"
+
+#: includes/utils.php:114
+msgid "You do not have sufficient permissions to edit this comment."
+msgstr "이 댓글을 편집할 권한이 없습니다."
+
+#: includes/utils.php:137
+msgid "Update"
+msgstr "업데이트"
+
+#: includes/utils.php:171
+msgid "You do not have sufficient permissions to delete this comment."
+msgstr "이 댓글을 삭제할 권한이 없습니다."
+
+#: includes/utils.php:177
+msgid "The replied comment can't be deleted"
+msgstr "답글이 있는 댓글은 삭제할 수 없습니다."
+
+#: includes/utils.php:188
+msgid "You are about to delete this comment."
+msgstr "이 댓글을 삭제하시겠습니까?"
+
+#: includes/utils.php:219
+msgid "Close"
+msgstr "닫기"
+
+#: includes/utils.php:262
+#: includes/utils.php:298
+msgid "Error: your nonce did not verify."
+msgstr "에러: 확인되지않은 넌스(nonce)입니다."
+
+#: includes/utils.php:267
+msgid "Error: you do not have permission to edit this comment."
+msgstr "에러: 이 댓글을 편집할 권한이 없습니다."
+
+#: includes/utils.php:272
+msgid "Error: please enter content."
+msgstr "에러: 내용을 입력하세요."
+
+#: includes/utils.php:284
+msgid "Comment updated."
+msgstr "댓글이 업데이트되었습니다."
+
+#: includes/utils.php:303
+msgid "Error: you do not have permission to delete this comment."
+msgstr "에러: 이 댓글을 삭제할 권한이 없습니다."
+
+#: includes/utils.php:314
+msgid "Comment deleted."
+msgstr "댓글이 삭제되었습니다."
+
+#: includes/utils.php:335
+msgid "Edit"
+msgstr "편집"
+
+#: includes/utils.php:483
+msgid "Private"
+msgstr "비공개"
+
+#: includes/utils.php:516
+#: includes/widget.php:86
+msgid "Private comment."
+msgstr "비공개 댓글."
+
+#: includes/utils.php:576
+#: includes/utils.php:577
+#: includes/utils.php:592
+msgid "Utils"
+msgstr "유틸"
+
+#: includes/utils.php:620
+msgid "If comment is an ancestor(replied comment), this function would be disabled."
+msgstr "댓글에 답글이 달려있는 경우, 이 기능은 무시됩니다."
+
+#: includes/utils.php:627
+msgid "How to insert links"
+msgstr "링크 삽입하는 방법"
+
+#: includes/utils.php:629
+msgid "Automatically"
+msgstr "자동으로"
+
+#: includes/utils.php:632
+msgid "Using template tags"
+msgstr "템플릿 태그 사용하기"
+
+#: includes/utils.php:634
+msgid "If you'd like to insert links manually, add the following codes in your comments template."
+msgstr "직접 링크들을 삽입하려면, 아래 코드를 댓글 템플릿에 추가하세요."
+
+#: includes/utils.php:640
+msgid "Show Usage &amp; Parameters"
+msgstr "사용법 &amp; 파라메터"
+
+#: includes/utils.php:642
+msgid "Edit link"
+msgstr "편집 링크"
+
+#: includes/utils.php:650
+msgid "Delete link"
+msgstr "삭제 링크"
+
+#: includes/utils.php:667
+msgid "Who can read private comments?"
+msgstr "누가 비공개 댓글을 읽을 수 있나?"
+
+#: includes/utils.php:670
+msgid "Parent comment author"
+msgstr "부모 댓글(답글의 대상) 작성자"
+
+#: includes/utils.php:671
+msgid "Post author"
+msgstr "포스트 작성자"
+
+#: includes/utils.php:677
+msgid "Unless deactivate or delete this plugin, even if you would change from 'enable' to 'disable', private property is retained."
+msgstr "플러그인을 비활성/삭제하지 않는 한, 비공개 기능을 비활성하여도 비공개 코멘트는 그 속성이 계속 유지됩니다."
+
+#: includes/utils.php:679
+#, php-format
+msgid "If you are using [%1$s] Widget, I recommend [%2$s] that this plugin provide. This widget protect the private comment shown."
+msgstr "[%1$s] 위젯을 사용중이라면, 이 플러그인이 제공하는 위젯인 [%2$s]을 사용하기를 권장합니다. 비공개 댓글의 콘텐츠 노출을 차단해줍니다."
+
+#: includes/utils.php:679
+#: includes/widget.php:40
+msgid "Recent Comments"
+msgstr "최근 댓글"
+
+#: includes/utils.php:679
+#: includes/widget.php:18
+msgid "Recent Comments for U Ex-comment"
+msgstr "최근 댓글 (U Extended Comment)"
+
+#: includes/widget.php:17
+msgid "The most recent comments for 'U Extended Comment'"
+msgstr "최근 댓글 (U Extended Comment)"
+
+#: includes/widget.php:126
+msgid "Title"
+msgstr "제목"
+
+#: includes/widget.php:131
+msgid "Number of comments to show"
+msgstr "보여줄 댓글의 수"
+
+#: includes/widget.php:136
+msgid "List format"
+msgstr "목록 형식"
+
+#: includes/widget.php:141
+msgid "Replace Keywords"
+msgstr "대체 키워드"
+
+#: includes/widget.php:146
+msgid "Comment content / Post title length"
+msgstr "댓글 내용 / 포스트 제목 길이"
+
+#: includes/widget.php:148
+msgid "words"
+msgstr "단어"
+
+#: includes/widget.php:152
+msgid "Date format"
+msgstr "날짜 형식"
+
+#: includes/widget.php:154
+msgid "Documentation on date and time formatting."
+msgstr "날짜와 시간 형식 문서."
+
+#~ msgid "Author"
+#~ msgstr "작성자"
+
+#~ msgid "Error: please fill the required fields."
+#~ msgstr "에러: 필수 입력 사항을 입력하세요."
+
+#~ msgid "Secondary Buttons group"
+#~ msgstr "두번째 버튼 꾸러미"
+
+#~ msgid "This plugin is using %s as a WYSIWYG HTML editor."
+#~ msgstr "이 플러그인은 WYSIWYG HTML 편집기인 %s를 사용하고 있습니다."
+
+#~ msgid "Attachments"
+#~ msgstr "첨부파일"
+
+#~ msgid "Uploaded File List"
+#~ msgstr "업로드한 파일 목록"
+
+#~ msgid ""
+#~ "If you'd like to grant permission to all visitor, uncheck all checkbox."
+#~ msgstr "모든 방문자에게 권한을 부여하려면, 모든 체크를 해제하세요."
+
+#~ msgid "How to extend."
+#~ msgstr "확장하는 방법."
+
+#~ msgid "View more explaination."
+#~ msgstr "자세한 설명 보기"
+
+#~ msgid "Error: Please enter a title."
+#~ msgstr "에러: 제목을 입력하세요."
+
+#~ msgid "Error: Please select the Group Forum."
+#~ msgstr "에러: 그룹 포럼을 선택하세요."
+
+#~ msgid "BuddyPress Forum Editor"
+#~ msgstr "버디프레스 포럼 편집기"
+
+#~ msgid "Forum Editor"
+#~ msgstr "포럼 편집기"
+
+#~ msgid "Enable Topic editor"
+#~ msgstr "토픽을 작성할 때 편집기 사용"
+
+#~ msgid "Enable Reply editor"
+#~ msgstr "답글을 작성할 때 편집기 사용"
+
+#~ msgid "Form Validate"
+#~ msgstr "폼 검사"
+
+#~ msgid "Validating whether form fields are filled out before submit post."
+#~ msgstr "포스트 하기 전에 폼 필드들에 값이 입력되었는지 확인. "
+
+#~ msgid "Related Plugin"
+#~ msgstr "연관 플러그인"
+
+#~ msgid ""
+#~ "If your are already using %s's Form validation, this plugin's form "
+#~ "validation will be ignored."
+#~ msgstr ""
+#~ "%s의 폼 검사를 이미 사용중이라면, 이 플러그인의 폼 검사는 실행되지 않습니"
+#~ "다."
+
+#~ msgid "Error: Please enter a subject."
+#~ msgstr "에러: 제목을 입력하세요."
+
+#~ msgid "Enable Editor"
+#~ msgstr "편집기 활성화"
+
+#~ msgid ""
+#~ "Uploading Files <small>(Less than %sMbytes, Maximum %s per comment)</"
+#~ "small>"
+#~ msgstr "파일 업로드 <small>(%sMbytes 이하, 댓글당 최대 %s개)</small>"
+
+#~ msgid "This file type is not allowed. Please try another."
+#~ msgstr "이 파일 형식은 허용하지 않습니다. 다른 것으로 올려주세요."
+
+#~ msgid "There was an error. please try again."
+#~ msgstr "오류가 발생하였습니다. 다시 시도해주세요."
+
+#~ msgid "Upload canceled."
+#~ msgstr "파일 업로드가 취소되었습니다."
+
+#~ msgid "Security error. Please contact the administrator."
+#~ msgstr "보안 오류! 관리자에게 문의해주세요."
+
+#~ msgid "This Plugin requires Adobe Flash Player 9.0. or greater."
+#~ msgstr "어도비 플래시 플레이어(9.0 이상) 플러그인이 필요합니다."
+
+#~ msgid "Now uploading. please try again later."
+#~ msgstr "업로드중입니다. 완료후 다시 시도하세요."
+
+#~ msgid "Choose File"
+#~ msgstr "파일 선택"
+
+#~ msgid "Error: The password is incorrect."
+#~ msgstr "에러: 비밀번호가 틀렸습니다."

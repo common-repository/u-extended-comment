@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: U Extended Comment v1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-08-18 15:05+0000\n"
+"Last-Translator: cristophe <cristophe.bert1@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/admin.php:60
+#@ uexc
+msgid "Component"
+msgstr "Composant"
+
+#: includes/admin.php:61
+#@ uexc
+msgid "Status"
+msgstr "Statut"
+
+#: includes/admin.php:62
+#: includes/admin.php:69
+#: includes/admin.php:74
+#: includes/admin.php:79
+#: includes/admin.php:84
+#: includes/admin.php:89
+#@ uexc
+msgid "Setting"
+msgstr "Réglages"
+
+#: includes/admin.php:67
+#: includes/utils.php:604
+#@ uexc
+msgid "Editable"
+msgstr "Modifier"
+
+#: includes/admin.php:72
+#: includes/utils.php:616
+#@ uexc
+msgid "Deletable"
+msgstr "Supprimer"
+
+#: includes/admin.php:77
+#: includes/utils.php:665
+#@ uexc
+msgid "Privatable"
+msgstr "Commentaire privé"
+
+#: includes/admin.php:82
+#: includes/editor.php:413
+#: includes/editor.php:414
+#: includes/editor.php:431
+#@ uexc
+msgid "Editor"
+msgstr "Editeur"
+
+#: includes/admin.php:87
+#: includes/attachment.php:695
+#: includes/attachment.php:696
+#: includes/attachment.php:739
+#@ uexc
+msgid "Attachment"
+msgstr "Fichier joint"
+
+#: includes/attachment.php:44
+#@ uexc
+msgid "Insert into editor"
+msgstr "Insérer dans le commentaire"
+
+#: includes/attachment.php:45
+#: includes/attachment.php:1068
+#: includes/utils.php:193
+#: includes/utils.php:336
+#@ uexc
+#@ default
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/attachment.php:148
+#@ uexc
+msgid "Attach a file"
+msgstr "Joindre un fichier"
+
+#: includes/attachment.php:149
+#@ uexc
+msgid "Uploading"
+msgstr "Téléchargement"
+
+#: includes/attachment.php:151
+#@ uexc
+msgid "File types"
+msgstr "Types de fichiers"
+
+#: includes/attachment.php:152
+#@ uexc
+msgid "Max size"
+msgstr "Taille maximale"
+
+#: includes/attachment.php:153
+#@ uexc
+msgid "Max count"
+msgstr "Nombre maximal"
+
+#: includes/attachment.php:202
+#@ uexc
+msgid "Download"
+msgstr "Télécharger"
+
+#: includes/attachment.php:205
+#@ uexc
+msgid "Open Image in New Window"
+msgstr "Ouvrir l'image dans une nouvelle fenêtre"
+
+#: includes/attachment.php:205
+#: includes/attachment.php:979
+#: includes/attachment.php:1066
+#@ uexc
+#@ default
+msgid "View"
+msgstr "Voir"
+
+#: includes/attachment.php:333
+#: includes/attachment.php:424
+#@ uexc
+msgid "Your nonce did not verify."
+msgstr "Your nonce did not verify."
+
+#: includes/attachment.php:336
+#@ uexc
+msgid "Please select a file to upload"
+msgstr "Sélectionner s'il vous plaît un fichier à télécharger"
+
+#: includes/attachment.php:339
+#, php-format
+#@ uexc
+msgid "For uploading, file size must be less than %s Mbytes"
+msgstr "Pour le chargement, la taille du fichier doit être inférieure à% s Mo"
+
+#: includes/attachment.php:351
+#, php-format
+#@ uexc
+msgid "[%s] is successfully uploaded."
+msgstr "[%s] a été chargé avec succès."
+
+#: includes/attachment.php:430
+#@ uexc
+msgid "File does not exist"
+msgstr "Le fichier n'existe pas"
+
+#: includes/attachment.php:449
+#@ default
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/attachment.php:747
+#: includes/attachment.php:750
+#: includes/editor.php:440
+#: includes/editor.php:443
+#: includes/utils.php:607
+#: includes/utils.php:619
+#: includes/utils.php:668
+#@ uexc
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/attachment.php:755
+#: includes/editor.php:448
+#: includes/utils.php:610
+#: includes/utils.php:622
+#@ uexc
+msgid "Permission restriction"
+msgstr "Autorisations"
+
+#: includes/attachment.php:758
+#: includes/editor.php:451
+#: includes/utils.php:611
+#: includes/utils.php:623
+#@ uexc
+msgid "If you want to allow all users and visitors to use, please uncheck all."
+msgstr "Si vous souhaitez autoriser tous les utilisateurs et les visiteurs, décochez toutes les options."
+
+#: includes/attachment.php:762
+#@ uexc
+msgid "Upload directory"
+msgstr "Répertoire de chargement"
+
+#: includes/attachment.php:769
+#@ uexc
+msgid "Max file size per file"
+msgstr "Taille maximum par fichier"
+
+#: includes/attachment.php:775
+#@ uexc
+msgid "Max file count per post"
+msgstr "Nombre de fichiers maxi par commentaire"
+
+#: includes/attachment.php:778
+#@ uexc
+msgid "How many files can be attached per post."
+msgstr "Combien de fichiers peuvent être joints par commentaire."
+
+#: includes/attachment.php:782
+#@ uexc
+msgid "Upload file types"
+msgstr "Types de fichiers chargeables"
+
+#: includes/attachment.php:785
+#@ uexc
+msgid "Separate file extentions with commas."
+msgstr "Séparer les extensions de fichiers par des virgules."
+
+#: includes/attachment.php:801
+#: includes/editor.php:562
+#: includes/utils.php:691
+#@ default
+msgid "Save Changes"
+msgstr ""
+
+#: includes/attachment.php:823
+#: includes/editor.php:601
+#: includes/utils.php:719
+#@ default
+msgid "Settings saved."
+msgstr ""
+
+#: includes/editor.php:246
+#@ uexc
+msgid "Visual"
+msgstr "Visuel"
+
+#: includes/editor.php:247
+#@ uexc
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/editor.php:455
+#@ uexc
+msgid "Editor Size"
+msgstr "Taille de l'éditeur"
+
+#: includes/editor.php:457
+#@ uexc
+msgid "Width"
+msgstr "Largeur"
+
+#: includes/editor.php:461
+#@ uexc
+msgid "Height"
+msgstr "Hauteur"
+
+#: includes/editor.php:466
+#@ uexc
+msgid "Editor Skin"
+msgstr "Habillage de l'éditeur"
+
+#: includes/editor.php:479
+#: includes/editor.php:486
+#: includes/editor.php:493
+#: includes/editor.php:500
+#@ uexc
+msgid "Separate buttons with commas. Pipe character( | ) is visual separator."
+msgstr "Séparer les boutons par des virgules. Le caractère pipe (|) est un séparateur visuel."
+
+#: includes/editor.php:506
+#@ uexc
+msgid "Available buttons"
+msgstr "Boutons disponibles"
+
+#: includes/editor.php:526
+#@ uexc
+msgid "Allowed Tags"
+msgstr "Balises autorisées"
+
+#: includes/editor.php:529
+#@ uexc
+msgid "Default allowed tags"
+msgstr "Balises autorisées par défaut"
+
+#: includes/editor.php:537
+#@ uexc
+msgid "Additional tags"
+msgstr "Balises supplémentaires"
+
+#: includes/editor.php:545
+#@ uexc
+msgid "For instance, if you would embed Youtube, select <code>iframe</code>. and if you would use old embed code(Flash), select <code>object, embed and param</code>."
+msgstr "Par exemple, si vous souhaitez intégrer Youtube, sélectionnez <code>iframe</code> . et si vous souhaitez utiliser les anciens codes d'intégration (Flash), sélectionnez <code>object, embed et param</code> ."
+
+#: includes/editor.php:546
+#@ uexc
+msgid "Some tags are never allowed. script, style, link."
+msgstr "Certaines balises ne sont jamais autorisées. script, style, lien."
+
+#: includes/editor.php:551
+#@ uexc
+msgid "Editor Content CSS URL"
+msgstr "Lien de votre fichier CSS"
+
+#: includes/editor.php:554
+#@ uexc
+msgid "If you want to customize CSS of Editor content, enter your own stylesheet file URL."
+msgstr "Si vous souhaitez personnaliser le CSS de l'éditeur, entrez l'adresse de votre feuille de style."
+
+#: includes/editor.php:555
+#, php-format
+#@ uexc
+msgid "If you leave a blank, the %s CSS will be used."
+msgstr "Si vous laissez la zone vide, le CSS %s sera utilisé."
+
+#: includes/editor.php:555
+#@ uexc
+msgid "defaults"
+msgstr "par défaut"
+
+#: includes/editor.php:510
+#@ uexc
+msgid "Extend TinyMCE Plugin"
+msgstr "Extend TinyMCE Plugin"
+
+#: includes/editor.php:513
+#@ uexc
+msgid "Plugin directory"
+msgstr "Dossier du plugin"
+
+#: includes/editor.php:517
+#@ uexc
+msgid "Plugin names"
+msgstr "Nom des plugins"
+
+#: includes/editor.php:519
+#@ uexc
+msgid "Separate plugin name with commas."
+msgstr "Séparer le nom des plugins par des virgules."
+
+#: includes/utils.php:335
+#@ uexc
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/utils.php:137
+#@ default
+msgid "Update"
+msgstr ""
+
+#: includes/utils.php:93
+#: includes/utils.php:155
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: includes/utils.php:177
+#@ uexc
+msgid "The replied comment can't be deleted"
+msgstr "Le commentaire ayant reçu une réponse ne peut pas être supprimé"
+
+#: includes/utils.php:188
+#@ uexc
+msgid "You are about to delete this comment."
+msgstr "Vous êtes sur le point de supprimer ce commentaire."
+
+#: includes/utils.php:262
+#: includes/utils.php:298
+#@ uexc
+msgid "Error: your nonce did not verify."
+msgstr ""
+
+#: includes/utils.php:267
+#@ uexc
+msgid "Error: you do not have permission to edit this comment."
+msgstr "Erreur: vous n'avez pas la permission de modifier ce commentaire."
+
+#: includes/utils.php:272
+#@ uexc
+msgid "Error: please enter content."
+msgstr "Erreur: veuillez s'il vous plaît saisir un texte."
+
+#: includes/utils.php:303
+#@ uexc
+msgid "Error: you do not have permission to delete this comment."
+msgstr "Erreur: vous n'avez pas la permission de supprimer ce commentaire."
+
+#: includes/utils.php:483
+#@ uexc
+msgid "Private"
+msgstr "Privé"
+
+#: includes/utils.php:520
+#: includes/widget.php:86
+#@ uexc
+msgid "Private comment."
+msgstr "Commentaire privé."
+
+#: includes/utils.php:580
+#: includes/utils.php:581
+#: includes/utils.php:596
+#@ uexc
+msgid "Utils"
+msgstr "Utilisations"
+
+#: includes/utils.php:624
+#@ uexc
+msgid "If comment is an ancestor(replied comment), this function would be disabled."
+msgstr "Si le commentaire a reçu une réponse, cette fonction sera désactivée."
+
+#: includes/utils.php:631
+#@ uexc
+msgid "How to insert links"
+msgstr "Comment insérer des liens"
+
+#: includes/utils.php:633
+#@ uexc
+msgid "Automatically"
+msgstr "Automatiquement"
+
+#: includes/utils.php:636
+#@ uexc
+msgid "Using template tags"
+msgstr "Utilisation des balises de template"
+
+#: includes/utils.php:638
+#@ uexc
+msgid "If you'd like to insert links manually, add the following codes in your comments template."
+msgstr "Si vous souhaitez insérer des liens manuellement, ajouter les codes suivants dans votre modèle de commentaires."
+
+#: includes/utils.php:644
+#@ uexc
+msgid "Show Usage &amp; Parameters"
+msgstr "Utilisation et Paramètres"
+
+#: includes/utils.php:646
+#@ uexc
+msgid "Edit link"
+msgstr "Modifier un lien"
+
+#: includes/utils.php:654
+#@ uexc
+msgid "Delete link"
+msgstr "Supprimer un lien"
+
+#: includes/utils.php:671
+#@ uexc
+msgid "Who can read private comments?"
+msgstr "Qui peut lire les commentaires privés ?"
+
+#: includes/attachment.php:956
+#: includes/utils.php:673
+#@ uexc
+msgid "Commenter"
+msgstr "Auteur du commentaire"
+
+#: includes/utils.php:674
+#@ uexc
+msgid "Parent comment author"
+msgstr "Auteur du commentaire parent"
+
+#: includes/utils.php:675
+#@ uexc
+msgid "Post author"
+msgstr "Auteur de l'article"
+
+#: includes/utils.php:681
+#@ uexc
+msgid "Unless deactivate or delete this plugin, even if you would change from 'enable' to 'disable', private property is retained."
+msgstr "À moins de désactiver ou supprimer ce plugin, même si vous changez de 'activer' à 'désactiver', la propriété privée est conservée."
+
+#: includes/utils.php:683
+#, php-format
+#@ uexc
+msgid "If you are using [%1$s] Widget, I recommend [%2$s] that this plugin provide. This widget protect the private comment shown."
+msgstr "Si vous utilisez le widget [%1$s], je recommande [%2$s] que ce plugin fournit. Ce widget protège l'affichage des commentaires privés."
+
+#: includes/utils.php:683
+#: includes/widget.php:40
+#@ default
+msgid "Recent Comments"
+msgstr ""
+
+#: includes/utils.php:683
+#: includes/widget.php:18
+#@ uexc
+msgid "Recent Comments for U Ex-comment"
+msgstr "Commentaires récents pour U-Ex comment"
+
+#: includes/widget.php:17
+#@ uexc
+msgid "The most recent comments for 'U Extended Comment'"
+msgstr "Les commentaires les plus récents pour 'U Extended Comment'"
+
+#: includes/widget.php:126
+#@ uexc
+msgid "Title"
+msgstr "Titre"
+
+#: includes/widget.php:131
+#@ uexc
+msgid "Number of comments to show"
+msgstr "Nombre de commentaires à afficher"
+
+#: includes/widget.php:136
+#@ uexc
+msgid "List format"
+msgstr "Format de liste"
+
+#: includes/widget.php:141
+#@ uexc
+msgid "Replace Keywords"
+msgstr "Remplacer Mots-clés"
+
+#: includes/widget.php:146
+#@ uexc
+msgid "Comment content / Post title length"
+msgstr "Longueur Titre du commentaire / article"
+
+#: includes/widget.php:148
+#@ uexc
+msgid "words"
+msgstr "mots"
+
+#: includes/widget.php:152
+#@ uexc
+msgid "Date format"
+msgstr "Format de la date"
+
+#: includes/widget.php:154
+#@ uexc
+msgid "Documentation on date and time formatting."
+msgstr "Documentation sur le formatage des dates et heures."
+
+#: includes/attachment.php:46
+#@ uexc
+msgid "Attachment deleted"
+msgstr "Fichier joint supprimé"
+
+#: includes/attachment.php:47
+#@ uexc
+msgid "Are you sure you want to delete?"
+msgstr "Etes-vous sûr de vouloir supprimer ?"
+
+#: includes/attachment.php:48
+#@ uexc
+msgid "Processing"
+msgstr "Traitement"
+
+#: includes/attachment.php:404
+#@ default
+msgid "Unable to create sub-size images."
+msgstr ""
+
+#: includes/attachment.php:704
+#: includes/attachment.php:705
+#: includes/attachment.php:930
+#@ uexc
+msgid "Attachment Manager"
+msgstr "Gestionnaire de fichiers joints"
+
+#: includes/attachment.php:788
+#@ uexc
+msgid "Extention(s) in the square brackets is same type each other. so, for example, if you inputted 'jpg', you don't need to input 'jpeg' or 'jpe'."
+msgstr "Les extensions entre crochets sont de même type. Ainsi, par exemple, si vous saisissez 'jpg', vous n'avez pas besoin de saisir 'jpeg' ou 'jpe'."
+
+#: includes/attachment.php:793
+#@ uexc
+msgid "Number of comments to show in Attachment Manager"
+msgstr "Nombre de commentaires à afficher dans le gestionnaire de fichiers joints"
+
+#: includes/attachment.php:870
+#@ uexc
+msgid "(Trash)"
+msgstr "(Corbeille)"
+
+#: includes/attachment.php:939
+#@ default
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/attachment.php:940
+#: includes/attachment.php:978
+#@ default
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/attachment.php:941
+#@ default
+msgid "Apply"
+msgstr ""
+
+#: includes/attachment.php:954
+#@ uexc
+msgid "File"
+msgstr "Fichier"
+
+#: includes/attachment.php:955
+#@ uexc
+msgid "Attached to"
+msgstr "Attaché à"
+
+#: includes/attachment.php:957
+#@ uexc
+msgid "Date"
+msgstr "Date"
+
+#: includes/attachment.php:998
+#@ uexc
+msgid "Show Unattached Files"
+msgstr "Afficher les fichiers non attachés"
+
+#: includes/attachment.php:1000
+#@ uexc
+msgid "Unattached Files"
+msgstr "Fichiers non attachés"
+
+#: includes/attachment.php:1004
+#@ uexc
+msgid "Filename"
+msgstr "Nom"
+
+#: includes/attachment.php:1010
+#@ uexc
+msgid "Loading"
+msgstr "Chargement"
+
+#: includes/attachment.php:1058
+#@ uexc
+msgid "No unattached files"
+msgstr "Pas de fichiers non attachés"
+
+#: includes/editor.php:476
+#: includes/editor.php:483
+#: includes/editor.php:490
+#: includes/editor.php:497
+#@ uexc
+msgid "Buttons group"
+msgstr "Groupe de boutons"
+
+#: includes/editor.php:511
+#@ uexc
+msgid "This is not required."
+msgstr "Ce n'est pas obligatoire."
+
+#: includes/editor.php:521
+#@ uexc
+msgid "How to extend TinyMCE plugin"
+msgstr ""
+
+#: includes/editor.php:538
+#@ uexc
+msgid "Check all"
+msgstr "Tout cocher"
+
+#: includes/utils.php:114
+#@ uexc
+msgid "You do not have sufficient permissions to edit this comment."
+msgstr "Vous n'avez pas les autorisations suffisantes pour modifier ce commentaire."
+
+#: includes/utils.php:171
+#@ uexc
+msgid "You do not have sufficient permissions to delete this comment."
+msgstr "Vous n'avez pas les autorisations suffisantes pour supprimer ce commentaire."
+
+#: includes/utils.php:219
+#@ uexc
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/utils.php:284
+#@ uexc
+msgid "Comment updated."
+msgstr "Commentaire mis à jour."
+
+#: includes/utils.php:314
+#@ uexc
+msgid "Comment deleted."
+msgstr "Commentaire supprimé."
+

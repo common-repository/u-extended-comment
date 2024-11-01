@@ -1,0 +1,684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: U Extended Comment v1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-11-27 16:01+0400\n"
+"Last-Translator: Ilya <spice2001@mail.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ uexc
+#: includes/admin.php:60
+msgid "Component"
+msgstr "Компонент"
+
+#@ uexc
+#: includes/admin.php:61
+msgid "Status"
+msgstr "Статус"
+
+#@ uexc
+#: includes/admin.php:62
+#: includes/admin.php:69
+#: includes/admin.php:74
+#: includes/admin.php:79
+#: includes/admin.php:84
+#: includes/admin.php:89
+msgid "Setting"
+msgstr "Настройки"
+
+#@ uexc
+#: includes/admin.php:67
+#: includes/utils.php:604
+msgid "Editable"
+msgstr "Редактирование"
+
+#@ uexc
+#: includes/admin.php:72
+#: includes/utils.php:616
+msgid "Deletable"
+msgstr "Удаление"
+
+#@ uexc
+#: includes/admin.php:77
+#: includes/utils.php:665
+msgid "Privatable"
+msgstr "Приватность"
+
+#@ uexc
+#: includes/admin.php:82
+#: includes/editor.php:413
+#: includes/editor.php:414
+#: includes/editor.php:431
+msgid "Editor"
+msgstr "Редактор"
+
+#@ uexc
+#: includes/admin.php:87
+#: includes/attachment.php:695
+#: includes/attachment.php:696
+#: includes/attachment.php:739
+msgid "Attachment"
+msgstr "Приложения"
+
+#@ uexc
+#: includes/attachment.php:44
+msgid "Insert into editor"
+msgstr "Вставить в редактор"
+
+#@ uexc
+#@ default
+#: includes/attachment.php:45
+#: includes/attachment.php:1068
+#: includes/utils.php:193
+#: includes/utils.php:336
+msgid "Delete"
+msgstr "Удалить"
+
+#@ uexc
+#: includes/attachment.php:148
+msgid "Attach a file"
+msgstr "Прикрепить файл"
+
+#@ uexc
+#: includes/attachment.php:149
+msgid "Uploading"
+msgstr "Загрузка"
+
+#@ uexc
+#: includes/attachment.php:151
+msgid "File types"
+msgstr "Типы файлов"
+
+#@ uexc
+#: includes/attachment.php:152
+msgid "Max size"
+msgstr "Макс. размер"
+
+#@ uexc
+#: includes/attachment.php:153
+msgid "Max count"
+msgstr "Макс. количество"
+
+#@ uexc
+#: includes/attachment.php:202
+msgid "Download"
+msgstr "Скачать"
+
+#@ uexc
+#: includes/attachment.php:205
+msgid "Open Image in New Window"
+msgstr "Открыть в новом окне"
+
+#@ uexc
+#@ default
+#: includes/attachment.php:205
+#: includes/attachment.php:979
+#: includes/attachment.php:1066
+msgid "View"
+msgstr "Просмотр"
+
+#@ uexc
+#: includes/attachment.php:333
+#: includes/attachment.php:424
+msgid "Your nonce did not verify."
+msgstr "Ваш  nonce-код не прошел проверку."
+
+#@ uexc
+#: includes/attachment.php:336
+msgid "Please select a file to upload"
+msgstr "Выберите файл для загрузки"
+
+#@ uexc
+#: includes/attachment.php:339
+#, php-format
+msgid "For uploading, file size must be less than %s Mbytes"
+msgstr "Размер файла должен быть не больше %s Мб"
+
+#@ uexc
+#: includes/attachment.php:351
+#, php-format
+msgid "[%s] is successfully uploaded."
+msgstr "%s загружено"
+
+#@ uexc
+#: includes/attachment.php:430
+msgid "File does not exist"
+msgstr "Файл не существует"
+
+#@ default
+#: includes/attachment.php:449
+msgid "Invalid file type"
+msgstr "Тип файла не поддерживается"
+
+#@ uexc
+#: includes/attachment.php:747
+#: includes/attachment.php:750
+#: includes/editor.php:440
+#: includes/editor.php:443
+#: includes/utils.php:607
+#: includes/utils.php:619
+#: includes/utils.php:668
+msgid "Enable"
+msgstr "Работает"
+
+#@ uexc
+#: includes/attachment.php:755
+#: includes/editor.php:448
+#: includes/utils.php:610
+#: includes/utils.php:622
+msgid "Permission restriction"
+msgstr "Разрешения"
+
+#@ uexc
+#: includes/attachment.php:758
+#: includes/editor.php:451
+#: includes/utils.php:611
+#: includes/utils.php:623
+msgid "If you want to allow all users and visitors to use, please uncheck all."
+msgstr "Снимите все галочки, чтобы разрешить всем пользователям и посетителям."
+
+#@ uexc
+#: includes/attachment.php:762
+msgid "Upload directory"
+msgstr "Папка для загрузок"
+
+#@ uexc
+#: includes/attachment.php:769
+msgid "Max file size per file"
+msgstr "Макс. размер файла"
+
+#@ uexc
+#: includes/attachment.php:775
+msgid "Max file count per post"
+msgstr "Макс. число файлов"
+
+#@ uexc
+#: includes/attachment.php:778
+msgid "How many files can be attached per post."
+msgstr "Сколько файлов можно загрузить в заметку"
+
+#@ uexc
+#: includes/attachment.php:782
+msgid "Upload file types"
+msgstr "Типы файлов для загрузки"
+
+#@ uexc
+#: includes/attachment.php:785
+msgid "Separate file extentions with commas."
+msgstr "Разделяйте запятыми расширения файлов."
+
+#@ default
+#: includes/attachment.php:801
+#: includes/editor.php:562
+#: includes/utils.php:691
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#@ default
+#: includes/attachment.php:823
+#: includes/editor.php:601
+#: includes/utils.php:719
+msgid "Settings saved."
+msgstr "Настройки сохранены"
+
+#@ uexc
+#: includes/editor.php:246
+msgid "Visual"
+msgstr "Визульный"
+
+#@ uexc
+#: includes/editor.php:247
+msgid "HTML"
+msgstr "HTML"
+
+#@ uexc
+#: includes/editor.php:455
+msgid "Editor Size"
+msgstr "Размер поля редактора"
+
+#@ uexc
+#: includes/editor.php:457
+msgid "Width"
+msgstr "Ширина"
+
+#@ uexc
+#: includes/editor.php:461
+msgid "Height"
+msgstr "Высота"
+
+#@ uexc
+#: includes/editor.php:466
+msgid "Editor Skin"
+msgstr "Внешний вид"
+
+#@ uexc
+#: includes/editor.php:479
+#: includes/editor.php:486
+#: includes/editor.php:493
+#: includes/editor.php:500
+msgid "Separate buttons with commas. Pipe character( | ) is visual separator."
+msgstr "Разделяйте кнопки запятыми, вертикальная черта отделяет блоки кнопок визуально"
+
+#@ uexc
+#: includes/editor.php:506
+msgid "Available buttons"
+msgstr "Разрешенные кнопки"
+
+#@ uexc
+#: includes/editor.php:526
+msgid "Allowed Tags"
+msgstr "Разрешенные теги"
+
+#@ uexc
+#: includes/editor.php:529
+msgid "Default allowed tags"
+msgstr "Разрешенные теги по умолчанию"
+
+#@ uexc
+#: includes/editor.php:537
+msgid "Additional tags"
+msgstr "Дополнительные теги"
+
+#@ uexc
+#: includes/editor.php:545
+msgid "For instance, if you would embed Youtube, select <code>iframe</code>. and if you would use old embed code(Flash), select <code>object, embed and param</code>."
+msgstr "Например, если вы хотите встраивать Youtube, выберите <code>iframe</code>, и если хотите сохранить поддержку старого кода (Flash), выберите <code>object, embed и param</code>."
+
+#@ uexc
+#: includes/editor.php:546
+msgid "Some tags are never allowed. script, style, link."
+msgstr "Эти теги никогда не будут разрешены: script, style, link."
+
+#@ uexc
+#: includes/editor.php:551
+msgid "Editor Content CSS URL"
+msgstr "CSS для формы редактирования"
+
+#@ uexc
+#: includes/editor.php:554
+msgid "If you want to customize CSS of Editor content, enter your own stylesheet file URL."
+msgstr "Если вы хотите изменить CSS редактора, укажите тут ссылку на таблицу стилей."
+
+#@ uexc
+#: includes/editor.php:555
+#, php-format
+msgid "If you leave a blank, the %s CSS will be used."
+msgstr "Если оставите это поле пустым, будет использована эта таблица стилей: %s."
+
+#@ uexc
+#: includes/editor.php:555
+msgid "defaults"
+msgstr "умолчания"
+
+#@ uexc
+#: includes/editor.php:510
+msgid "Extend TinyMCE Plugin"
+msgstr "Расширение плагина TinyMCE"
+
+#@ uexc
+#: includes/editor.php:513
+msgid "Plugin directory"
+msgstr "Папка с плагином"
+
+#@ uexc
+#: includes/editor.php:517
+msgid "Plugin names"
+msgstr "Название плагина"
+
+#@ uexc
+#: includes/editor.php:519
+msgid "Separate plugin name with commas."
+msgstr "Разделяйте названия плагинов запятыми."
+
+#@ uexc
+#: includes/utils.php:335
+msgid "Edit"
+msgstr "Редактировать"
+
+#@ default
+#: includes/utils.php:137
+msgid "Update"
+msgstr "Обновить"
+
+#@ default
+#: includes/utils.php:93
+#: includes/utils.php:155
+msgid "Cancel"
+msgstr "Отменить"
+
+#@ uexc
+#: includes/utils.php:177
+msgid "The replied comment can't be deleted"
+msgstr "Комментарий, имеющий ответы нельзя удалить"
+
+#@ uexc
+#: includes/utils.php:188
+msgid "You are about to delete this comment."
+msgstr "Вы хотите удалить этот комментарий."
+
+#@ uexc
+#: includes/utils.php:262
+#: includes/utils.php:298
+msgid "Error: your nonce did not verify."
+msgstr "Ошибка, nonce не верифицирован"
+
+#@ uexc
+#: includes/utils.php:267
+msgid "Error: you do not have permission to edit this comment."
+msgstr "Ошибка: у вас нет прав на редактирование этого комментария."
+
+#@ uexc
+#: includes/utils.php:272
+msgid "Error: please enter content."
+msgstr "Ошибка: нет текста комментария."
+
+#@ uexc
+#: includes/utils.php:303
+msgid "Error: you do not have permission to delete this comment."
+msgstr "Ошибка: у вас нет прав удалять этот комментарий"
+
+#@ uexc
+#: includes/utils.php:483
+msgid "Private"
+msgstr "Приватный"
+
+#@ uexc
+#: includes/utils.php:520
+#: includes/widget.php:86
+msgid "Private comment."
+msgstr "Приватный комментарий."
+
+#@ uexc
+#: includes/utils.php:580
+#: includes/utils.php:581
+#: includes/utils.php:596
+msgid "Utils"
+msgstr "Компоненты"
+
+#@ uexc
+#: includes/utils.php:624
+msgid "If comment is an ancestor(replied comment), this function would be disabled."
+msgstr "Если на комментарий есть ответы, эта функция недоступна"
+
+#@ uexc
+#: includes/utils.php:631
+msgid "How to insert links"
+msgstr "Как вставлять ссылки"
+
+#@ uexc
+#: includes/utils.php:633
+msgid "Automatically"
+msgstr "Автоматически"
+
+#@ uexc
+#: includes/utils.php:636
+msgid "Using template tags"
+msgstr "Использование тегов шаблона"
+
+#@ uexc
+#: includes/utils.php:638
+msgid "If you'd like to insert links manually, add the following codes in your comments template."
+msgstr "Чтобы вставить ссылку вручную, добавьте следующий код в шаблон комментирования"
+
+#@ uexc
+#: includes/utils.php:644
+msgid "Show Usage &amp; Parameters"
+msgstr "Показать параметры и как использовать"
+
+#@ uexc
+#: includes/utils.php:646
+msgid "Edit link"
+msgstr "Ссылка на редактирование"
+
+#@ uexc
+#: includes/utils.php:654
+msgid "Delete link"
+msgstr "Ссылка на удаление"
+
+#@ uexc
+#: includes/utils.php:671
+msgid "Who can read private comments?"
+msgstr "Кто может читать приватные комментарии?"
+
+#@ uexc
+#: includes/attachment.php:956
+#: includes/utils.php:673
+msgid "Commenter"
+msgstr "Комментирование"
+
+#@ uexc
+#: includes/utils.php:674
+msgid "Parent comment author"
+msgstr "Автор родительского комментария"
+
+#@ uexc
+#: includes/utils.php:675
+msgid "Post author"
+msgstr "Автор записи"
+
+#@ uexc
+#: includes/utils.php:681
+msgid "Unless deactivate or delete this plugin, even if you would change from 'enable' to 'disable', private property is retained."
+msgstr "Если отключить или удалить этот плагин, приватные комментарии сохранятся."
+
+#@ uexc
+#: includes/utils.php:683
+#, php-format
+msgid "If you are using [%1$s] Widget, I recommend [%2$s] that this plugin provide. This widget protect the private comment shown."
+msgstr "Если вы используете виджет [%1$s], рекоммендую использовать [%2$s] от этого плагина. Этот виджет не показывает приватные комментарии."
+
+#@ default
+#: includes/utils.php:683
+#: includes/widget.php:40
+msgid "Recent Comments"
+msgstr "Свежие комментарии"
+
+#@ uexc
+#: includes/utils.php:683
+#: includes/widget.php:18
+msgid "Recent Comments for U Ex-comment"
+msgstr "Свежие комментарии для U Ex-comment"
+
+#@ uexc
+#: includes/widget.php:17
+msgid "The most recent comments for 'U Extended Comment'"
+msgstr "Самые новые комментарии для \"U Extended Comment\""
+
+#@ uexc
+#: includes/widget.php:126
+msgid "Title"
+msgstr "Заголовок"
+
+#@ uexc
+#: includes/widget.php:131
+msgid "Number of comments to show"
+msgstr "Количество комментариев"
+
+#@ uexc
+#: includes/widget.php:136
+msgid "List format"
+msgstr "Формат списка"
+
+#@ uexc
+#: includes/widget.php:141
+msgid "Replace Keywords"
+msgstr "Заменять ключевые слова"
+
+#@ uexc
+#: includes/widget.php:146
+msgid "Comment content / Post title length"
+msgstr "Длинна строки комментария / заголовка"
+
+#@ uexc
+#: includes/widget.php:148
+msgid "words"
+msgstr "слов"
+
+#@ uexc
+#: includes/widget.php:152
+msgid "Date format"
+msgstr "Формат времени"
+
+#@ uexc
+#: includes/widget.php:154
+msgid "Documentation on date and time formatting."
+msgstr "Описание формата даты и времени."
+
+#@ uexc
+#: includes/attachment.php:46
+msgid "Attachment deleted"
+msgstr "Приложение удалено"
+
+#@ uexc
+#: includes/attachment.php:47
+msgid "Are you sure you want to delete?"
+msgstr "Вы действительно хотите удалить?"
+
+#@ uexc
+#: includes/attachment.php:48
+msgid "Processing"
+msgstr "Подождите"
+
+#@ default
+#: includes/attachment.php:404
+msgid "Unable to create sub-size images."
+msgstr "Нельзя создать изображения меньшего размера"
+
+#@ uexc
+#: includes/attachment.php:704
+#: includes/attachment.php:705
+#: includes/attachment.php:930
+msgid "Attachment Manager"
+msgstr "Менеджер приложений"
+
+#@ uexc
+#: includes/attachment.php:788
+msgid "Extention(s) in the square brackets is same type each other. so, for example, if you inputted 'jpg', you don't need to input 'jpeg' or 'jpe'."
+msgstr "Расширения в квадратных скобках являются идентичными, то есть, можно вписать любое из них, чтобы разрешить все сразу."
+
+#@ uexc
+#: includes/attachment.php:793
+msgid "Number of comments to show in Attachment Manager"
+msgstr "Количество комментариев в менеджере приложений"
+
+#@ uexc
+#: includes/attachment.php:870
+msgid "(Trash)"
+msgstr "(Корзина)"
+
+#@ default
+#: includes/attachment.php:939
+msgid "Bulk Actions"
+msgstr "Пакетная обработка"
+
+#@ default
+#: includes/attachment.php:940
+#: includes/attachment.php:978
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#@ default
+#: includes/attachment.php:941
+msgid "Apply"
+msgstr "Принять"
+
+#@ uexc
+#: includes/attachment.php:954
+msgid "File"
+msgstr "Файл"
+
+#@ uexc
+#: includes/attachment.php:955
+msgid "Attached to"
+msgstr "Приложение к"
+
+#@ uexc
+#: includes/attachment.php:957
+msgid "Date"
+msgstr "Дата"
+
+#@ uexc
+#: includes/attachment.php:998
+msgid "Show Unattached Files"
+msgstr "Показать неприкрепленные файлы"
+
+#@ uexc
+#: includes/attachment.php:1000
+msgid "Unattached Files"
+msgstr "Неприкрепленные файлы"
+
+#@ uexc
+#: includes/attachment.php:1004
+msgid "Filename"
+msgstr "Имя файла"
+
+#@ uexc
+#: includes/attachment.php:1010
+msgid "Loading"
+msgstr "Загрузка"
+
+#@ uexc
+#: includes/attachment.php:1058
+msgid "No unattached files"
+msgstr "Нет неприкрепленных файлов"
+
+#@ uexc
+#: includes/editor.php:476
+#: includes/editor.php:483
+#: includes/editor.php:490
+#: includes/editor.php:497
+msgid "Buttons group"
+msgstr "Группы кнопок"
+
+#@ uexc
+#: includes/editor.php:511
+msgid "This is not required."
+msgstr "Это необязательно."
+
+#@ uexc
+#: includes/editor.php:521
+msgid "How to extend TinyMCE plugin"
+msgstr "Как расширить плагин TinyMCE"
+
+#@ uexc
+#: includes/editor.php:538
+msgid "Check all"
+msgstr "Выбрать всех"
+
+#@ uexc
+#: includes/utils.php:114
+msgid "You do not have sufficient permissions to edit this comment."
+msgstr "У вас нет разрешения редактировать этот комментарий."
+
+#@ uexc
+#: includes/utils.php:171
+msgid "You do not have sufficient permissions to delete this comment."
+msgstr "У вас нет разрешения удалять  этот комментарий."
+
+#@ uexc
+#: includes/utils.php:219
+msgid "Close"
+msgstr "Закрыть"
+
+#@ uexc
+#: includes/utils.php:284
+msgid "Comment updated."
+msgstr "Комментарий обновлен."
+
+#@ uexc
+#: includes/utils.php:314
+msgid "Comment deleted."
+msgstr "Комментарий удален."
+

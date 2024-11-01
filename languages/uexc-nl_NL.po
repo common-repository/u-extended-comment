@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ubpfeditor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-12 10:19+0100\n"
+"PO-Revision-Date: 2011-08-12 10:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:60
+msgid "Component"
+msgstr "Component"
+
+#: includes/admin.php:61
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin.php:62
+#: includes/admin.php:69
+#: includes/admin.php:74
+#: includes/admin.php:79
+#: includes/admin.php:84
+#: includes/admin.php:89
+msgid "Setting"
+msgstr "Instelling"
+
+#: includes/admin.php:67
+#: includes/utils.php:458
+msgid "Editable"
+msgstr "Editable"
+
+#: includes/admin.php:72
+#: includes/utils.php:470
+msgid "Deletable"
+msgstr "Deletable"
+
+#: includes/admin.php:77
+#: includes/utils.php:519
+msgid "Privatable"
+msgstr "Deletable"
+
+#: includes/admin.php:82
+#: includes/editor.php:344
+#: includes/editor.php:345
+#: includes/editor.php:363
+msgid "Editor"
+msgstr "Editor"
+
+#: includes/admin.php:87
+#: includes/attachment.php:394
+#: includes/attachment.php:395
+#: includes/attachment.php:424
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: includes/attachment.php:67
+msgid "Insert into editor"
+msgstr "Plaats in editor"
+
+#: includes/attachment.php:68
+#: includes/utils.php:60
+#: includes/utils.php:252
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/attachment.php:110
+msgid "Attach a file"
+msgstr "Voeg toe"
+
+#: includes/attachment.php:112
+msgid "Uploading"
+msgstr "Uploading"
+
+#: includes/attachment.php:115
+msgid "File types"
+msgstr "bestandstypen"
+
+#: includes/attachment.php:116
+msgid "Max size"
+msgstr "Max grootte"
+
+#: includes/attachment.php:117
+msgid "Max count"
+msgstr "Max aantal"
+
+#: includes/attachment.php:187
+msgid "Download"
+msgstr "Download"
+
+#: includes/attachment.php:190
+msgid "Open Image in New Window"
+msgstr "Open foto in Nieuw Venster"
+
+#: includes/attachment.php:190
+msgid "View"
+msgstr "View"
+
+#: includes/attachment.php:278
+#: includes/attachment.php:310
+msgid "Your nonce did not verify."
+msgstr "Your nonce did not verify."
+
+#: includes/attachment.php:281
+msgid "Please select a file to upload"
+msgstr "Selecteer een bestand om up te loaden"
+
+#: includes/attachment.php:284
+#, php-format
+msgid "For uploading, file size must be less than %s Mbytes"
+msgstr "Om up te loaden moet het bestand minder dan %s Mbytes zijn"
+
+#: includes/attachment.php:296
+#, php-format
+msgid "[%s] is successfully uploaded."
+msgstr "[%s] is succesvol geupload."
+
+#: includes/attachment.php:318
+msgid "File does not exist"
+msgstr "Bestand bestaat niet"
+
+#: includes/attachment.php:337
+msgid "Invalid file type"
+msgstr "Upload bestandstypen"
+
+#: includes/attachment.php:432
+#: includes/attachment.php:435
+#: includes/editor.php:372
+#: includes/editor.php:375
+#: includes/utils.php:461
+#: includes/utils.php:473
+#: includes/utils.php:522
+msgid "Enable"
+msgstr "Enable"
+
+#: includes/attachment.php:440
+#: includes/editor.php:380
+#: includes/utils.php:464
+#: includes/utils.php:476
+msgid "Permission"
+msgstr "Toestemming"
+
+#: includes/attachment.php:443
+#: includes/editor.php:383
+#: includes/utils.php:465
+#: includes/utils.php:477
+msgid "If you want to allow all users and visitors to use, please uncheck all."
+msgstr "Als u alle gebruikers en bezoekers toestemming wil geven, deselecteer allen."
+
+#: includes/attachment.php:447
+msgid "Upload directory"
+msgstr "Upload map"
+
+#: includes/attachment.php:454
+msgid "Max file size per file"
+msgstr "Max bestandsgrootte per bestand"
+
+#: includes/attachment.php:460
+msgid "Max file count per post"
+msgstr "Max bestandsaantal per post"
+
+#: includes/attachment.php:463
+msgid "How many files can be attached per post."
+msgstr "Hoeveel bestanden kunnen toegevoegd worden per post"
+
+#: includes/attachment.php:467
+msgid "Upload file types"
+msgstr "Upload bestandstypen"
+
+#: includes/attachment.php:470
+msgid "Separate file extentions with commas."
+msgstr "Scheid bestandsextensies met kommas"
+
+#: includes/attachment.php:476
+#: includes/editor.php:472
+#: includes/utils.php:545
+msgid "Save Changes"
+msgstr "Opslaan"
+
+#: includes/attachment.php:494
+#: includes/editor.php:497
+msgid "Error: please fill the required fields."
+msgstr "Fout: vul alle verplichte velden"
+
+#: includes/attachment.php:499
+#: includes/editor.php:503
+#: includes/utils.php:572
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: includes/editor.php:195
+msgid "Visual"
+msgstr "Visual"
+
+#: includes/editor.php:196
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/editor.php:387
+msgid "Editor Size"
+msgstr "Editor grootte"
+
+#: includes/editor.php:389
+msgid "Width"
+msgstr "Breedte"
+
+#: includes/editor.php:392
+msgid "Height"
+msgstr "Hoogte"
+
+#: includes/editor.php:397
+msgid "Editor Skin"
+msgstr "Editor Skin"
+
+#: includes/editor.php:407
+msgid "Primary Buttons group"
+msgstr "Hoofd buttuns groep"
+
+#: includes/editor.php:410
+#: includes/editor.php:417
+msgid "Separate buttons with commas. Pipe character( | ) is visual separator."
+msgstr "Scheid buttons met kommas. Pipe karakter ( | ) is de visuele separator."
+
+#: includes/editor.php:414
+msgid "Secondary Buttons group"
+msgstr "Tweede buttons groep"
+
+#: includes/editor.php:419
+msgid "Available buttons"
+msgstr "Beschikbare buttons"
+
+#: includes/editor.php:424
+msgid "Allowed Tags"
+msgstr "Toegestane Tags"
+
+#: includes/editor.php:426
+msgid "Default allowed tags"
+msgstr "Standaard toegestane tags"
+
+#: includes/editor.php:434
+msgid "Additional tags"
+msgstr "Extra tags"
+
+#: includes/editor.php:442
+msgid "For instance, if you would embed Youtube, select <code>iframe</code>. and if you would use old embed code(Flash), select <code>object, embed and param</code>."
+msgstr "For instance, if you would embed Youtube, select <code>iframe</code>. and if you would use old embed code(Flash), select <code>object, embed and param</code>."
+
+#: includes/editor.php:443
+msgid "Some tags are never allowed. script, style, link."
+msgstr "Sommige tags zijn nooit toegestaan. script, style, link."
+
+#: includes/editor.php:447
+msgid "Editor Content CSS URL"
+msgstr "Editor Content CSS URL"
+
+#: includes/editor.php:450
+msgid "If you want to customize CSS of Editor content, enter your own stylesheet file URL."
+msgstr "Als u de CSS van de Editor inhoud wilt aanpassen, vul hier u eigen stylesheet bestand url."
+
+#: includes/editor.php:451
+#, php-format
+msgid "If you leave a blank, the %s CSS will be used."
+msgstr "Als u deze leeg laat, wordt de %s CSS gebruikt."
+
+#: includes/editor.php:451
+msgid "defaults"
+msgstr "standaard"
+
+#: includes/editor.php:455
+msgid "Extend TinyMCE Plugin"
+msgstr "Extend TinyMCE Plugin"
+
+#: includes/editor.php:457
+msgid "This is not required option."
+msgstr "Dit is geen verplichte optie."
+
+#: includes/editor.php:458
+msgid "Plugin directory"
+msgstr "Plugin map"
+
+#: includes/editor.php:462
+msgid "Plugin names"
+msgstr "Plugin naam"
+
+#: includes/editor.php:464
+msgid "Separate plugin name with commas."
+msgstr "Scheid plugin naam met kommas."
+
+#: includes/editor.php:466
+msgid "How to extend tinyMCE plugin."
+msgstr "How to extend tinyMCE plugin."
+
+#: includes/editor.php:476
+#, php-format
+msgid "This plugin is using %s as a WYSIWYG HTML editor."
+msgstr "Deze plugin gebruikt %s als WYSIWYG HTML editor."
+
+#: includes/utils.php:59
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/utils.php:215
+msgid "Update"
+msgstr "Update"
+
+#: includes/utils.php:217
+#: includes/utils.php:254
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/utils.php:239
+msgid "The replied comment can't be deleted"
+msgstr "De beantwoorde reactie kan niet verwijderd worden."
+
+#: includes/utils.php:247
+msgid "You are about to delete this comment."
+msgstr "U staat op het punt deze reactie te verwijderen."
+
+#: includes/utils.php:276
+#: includes/utils.php:309
+msgid "Error: your nonce did not verify."
+msgstr "Error: your nonce did not verify."
+
+#: includes/utils.php:281
+msgid "Error: you do not have permission to edit this comment."
+msgstr "Fout: u heeft geen toestemming om deze reactie aan te passen."
+
+#: includes/utils.php:286
+msgid "Error: please enter content."
+msgstr "Fout: voeg inhoud toe."
+
+#: includes/utils.php:314
+msgid "Error: you do not have permission to delete this comment."
+msgstr "Fout: u heeft geen toestemming om deze reactie te verwijderen."
+
+#: includes/utils.php:354
+msgid "Private"
+msgstr "Prive"
+
+#: includes/utils.php:387
+#: includes/widget.php:86
+msgid "Private comment."
+msgstr "Prive reactie."
+
+#: includes/utils.php:434
+#: includes/utils.php:435
+#: includes/utils.php:450
+msgid "Utils"
+msgstr "Utils"
+
+#: includes/utils.php:478
+msgid "If comment is an ancestor(replied comment), this function would be disabled."
+msgstr "Als het om een beantwoorde reactie gaat wordt deze functie uitgezet."
+
+#: includes/utils.php:485
+msgid "How to insert links"
+msgstr "Hoe voeg ik links toe"
+
+#: includes/utils.php:487
+msgid "Automatically"
+msgstr "Automatisch"
+
+#: includes/utils.php:490
+msgid "Using template tags"
+msgstr "Gebruik van template tags"
+
+#: includes/utils.php:492
+msgid "If you'd like to insert links manually, add the following codes in your comments template."
+msgstr "Als u handmatig links wilt toevoegen, voeg de volgende codes toe in uw reactie template."
+
+#: includes/utils.php:498
+msgid "Show Usage &amp; Parameters"
+msgstr "Laat Gebruik &amp; Parameters zien"
+
+#: includes/utils.php:500
+msgid "Edit link"
+msgstr "Edit link"
+
+#: includes/utils.php:508
+msgid "Delete link"
+msgstr "Verwijder link"
+
+#: includes/utils.php:525
+msgid "Who can read private comments?"
+msgstr "Wie kan prive reacties lezen?"
+
+#: includes/utils.php:527
+msgid "Commenter"
+msgstr "Commenter"
+
+#: includes/utils.php:528
+msgid "Parent comment author"
+msgstr "Hoofd reactie auteur"
+
+#: includes/utils.php:529
+msgid "Post author"
+msgstr "Post auteur"
+
+#: includes/utils.php:535
+msgid "Unless deactivate or delete this plugin, even if you would change from 'enable' to 'disable', private property is retained."
+msgstr "Unless deactivate or delete this plugin, even if you would change from 'enable' to 'disable', private property is retained."
+
+#: includes/utils.php:537
+#, php-format
+msgid "If you are using [%1$s] Widget, I recommend [%2$s] that this plugin provide. This widget protect the private comment shown."
+msgstr "If you are using [%1$s] Widget, I recommend [%2$s] that this plugin provide. This widget protect the private comment shown."
+
+#: includes/utils.php:537
+#: includes/widget.php:40
+msgid "Recent Comments"
+msgstr "Recente Reacties"
+
+#: includes/utils.php:537
+#: includes/widget.php:18
+msgid "Recent Comments for U Ex-comment"
+msgstr "Recente Reacties voor U Extended Comment"
+
+#: includes/widget.php:17
+msgid "The most recent comments for 'U Extended Comment'"
+msgstr "De meest recente reacties voor 'U Extended Comment'"
+
+#: includes/widget.php:126
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widget.php:131
+msgid "Number of comments to show"
+msgstr "Aantal zichtbare reacties"
+
+#: includes/widget.php:136
+msgid "List format"
+msgstr "Lijst formaat"
+
+#: includes/widget.php:141
+msgid "Replace Keywords"
+msgstr "Vervang Keywords"
+
+#: includes/widget.php:146
+msgid "Comment content / Post title length"
+msgstr "Reactie inhoud / Post titel lengte"
+
+#: includes/widget.php:148
+msgid "words"
+msgstr "woorden"
+
+#: includes/widget.php:152
+msgid "Date format"
+msgstr "Datum format"
+
+#: includes/widget.php:154
+msgid "Documentation on date and time formatting."
+msgstr "Documentatie over datum en tijd format"
+
+#~ msgid "Attachments"
+#~ msgstr "첨부파일"
+
+#~ msgid "Uploaded File List"
+#~ msgstr "업로드한 파일 목록"
+
+#~ msgid ""
+#~ "If you'd like to grant permission to all visitor, uncheck all checkbox."
+#~ msgstr "모든 방문자에게 권한을 부여하려면, 모든 체크를 해제하세요."
+
+#~ msgid "How to extend."
+#~ msgstr "확장하는 방법."
+
+#~ msgid "View more explaination."
+#~ msgstr "자세한 설명 보기"
+
+#~ msgid "Error: Please enter a title."
+#~ msgstr "에러: 제목을 입력하세요."
+
+#~ msgid "Error: Please select the Group Forum."
+#~ msgstr "에러: 그룹 포럼을 선택하세요."
+
+#~ msgid "BuddyPress Forum Editor"
+#~ msgstr "버디프레스 포럼 편집기"
+
+#~ msgid "Forum Editor"
+#~ msgstr "포럼 편집기"
+
+#~ msgid "Enable Topic editor"
+#~ msgstr "토픽을 작성할 때 편집기 사용"
+
+#~ msgid "Enable Reply editor"
+#~ msgstr "답글을 작성할 때 편집기 사용"
+
+#~ msgid "Form Validate"
+#~ msgstr "폼 검사"
+
+#~ msgid "Validating whether form fields are filled out before submit post."
+#~ msgstr "포스트 하기 전에 폼 필드들에 값이 입력되었는지 확인. "
+
+#~ msgid "Related Plugin"
+#~ msgstr "연관 플러그인"
+
+#~ msgid ""
+#~ "If your are already using %s's Form validation, this plugin's form "
+#~ "validation will be ignored."
+#~ msgstr ""
+#~ "%s의 폼 검사를 이미 사용중이라면, 이 플러그인의 폼 검사는 실행되지 않습니"
+#~ "다."
+
+#~ msgid "Error: Please enter a subject."
+#~ msgstr "에러: 제목을 입력하세요."
+
+#~ msgid "Enable Editor"
+#~ msgstr "편집기 활성화"
+
+#~ msgid ""
+#~ "Uploading Files <small>(Less than %sMbytes, Maximum %s per comment)</"
+#~ "small>"
+#~ msgstr "파일 업로드 <small>(%sMbytes 이하, 댓글당 최대 %s개)</small>"
+
+#~ msgid "This file type is not allowed. Please try another."
+#~ msgstr "이 파일 형식은 허용하지 않습니다. 다른 것으로 올려주세요."
+
+#~ msgid "There was an error. please try again."
+#~ msgstr "오류가 발생하였습니다. 다시 시도해주세요."
+
+#~ msgid "Upload canceled."
+#~ msgstr "파일 업로드가 취소되었습니다."
+
+#~ msgid "Security error. Please contact the administrator."
+#~ msgstr "보안 오류! 관리자에게 문의해주세요."
+
+#~ msgid "This Plugin requires Adobe Flash Player 9.0. or greater."
+#~ msgstr "어도비 플래시 플레이어(9.0 이상) 플러그인이 필요합니다."
+
+#~ msgid "Now uploading. please try again later."
+#~ msgstr "업로드중입니다. 완료후 다시 시도하세요."
+
+#~ msgid "Choose File"
+#~ msgstr "파일 선택"
+
+#~ msgid "Error: The password is incorrect."
+#~ msgstr "에러: 비밀번호가 틀렸습니다."

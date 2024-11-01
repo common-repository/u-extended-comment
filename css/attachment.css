@@ -1,0 +1,151 @@
+.comment-body img { 
+	max-width: 100%; 
+	height: auto; 
+}
+
+/* uploader
+ --------------------------------------------------------------------------------------- */
+#uexc_attach-uploader {
+	margin: 20px 0;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#uexc_attach-message,
+#uexc_attach-list,
+#uexc_attach-progress { display: none; }
+
+#uexc_attach-button {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	margin-right: 10px;
+}
+#uexc_attach-button span {
+	display: inline-block;
+	border: 1px solid #999;
+	background: #eee url(../images/white-grad.png) repeat-x;
+	color: #666;
+	border-radius: 20px;
+	line-height: 1;
+	padding: 5px 20px;
+	font-size: 12px;
+	
+}
+#uexc_attach-button:hover span { 
+	border-color: #333;
+	color: #111;
+}
+#uexc_attach-button input {
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	height: 100%;
+	_height: 100px;
+	padding: 100px !important;
+	font-size: 100px !important;
+	filter: alpha(opacity=1);
+	-moz-opacity: 0.01;
+	opacity: 0.01;
+}
+
+#uexc_attach-progress { 
+	font-weight: bold; 
+	background: url(../images/ajax-loader.gif) no-repeat left 50%;
+	padding-left: 15px;
+}
+
+
+#uexc_attach-info {
+	font-size: 11px;
+	color: #999;
+	vertical-align: top;
+	display: inline-block;
+	line-height: 24px;
+}
+#uexc_attach-info strong{
+	color: #666;
+	font-weight: normal !important;
+}
+
+#uexc_attach-message {
+	background: lightyellow; 
+	border: 1px solid #ffc597; 
+	color: #ff5917; 
+	padding: 5px 10px;
+	border-radius: 4px;
+	margin: 15px 0;
+}
+#uexc_attach-message.err {
+	border:none;
+	background: #E41717;
+	color: #FFF;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+#uexc_attach-target, 
+#uexc_attach-form { width: 0; height: 0; visibility: hidden; position: absolute;}
+
+
+
+/* filelist
+ --------------------------------------------------------------------------------------- */ 
+table.uexc_attach-filelist {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0;
+	clear: both;
+	position: relative;
+	width: auto !important;
+	margin: 15px 0 !important;
+	border: 1px solid #ddd !important;
+	background: #f0f0f0 !important;
+}
+table.uexc_attach-filelist td {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	color: #666;
+	line-height: 1 !important;
+	padding: 0 8px !important;
+	border: none !important;
+	border-bottom: 1px solid #ddd !important;
+	vertical-align: middle !important;
+	height: 20px !important;
+}
+table.uexc_attach-filelist tr.even td {
+	background: #f8f8f8 !important;
+}
+table.uexc_attach-filelist td a {
+	color: #666;
+	text-decoration: none;
+}
+table.uexc_attach-filelist td a:hover {
+	text-decoration: underline;
+}
+table.uexc_attach-filelist td.links {
+	padding-left: 50px !important;
+	text-align: right;
+}
+table.uexc_attach-filelist.processing td.links a{
+	visibility: hidden;
+}
+table.uexc_attach-filelist .pipe {
+	color: #ccc;
+}
+table.uexc_attach-filelist td.thumb {
+	padding: 0 !important;
+	line-height: 0 !important;
+	width: 20px;
+}
+table.uexc_attach-filelist td.thumb.empty {
+	width: 0;	
+}
+table.uexc_attach-filelist img.thumb {
+	width: 20px !important;
+	height: 20px !important;
+	max-width: none !important;
+	max-height: none !important;
+}
